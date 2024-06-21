@@ -2,7 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Description: This program will assign a random number to the variable n
+ * each time it is executed. It then prints the last digit of the number
+ * stored in the variable n along with specific messages based on the value
+ * of the last digit.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
