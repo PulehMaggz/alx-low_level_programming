@@ -1,5 +1,13 @@
 #include <stdio.h>
-
+/**
+ * main - Entry point
+ *
+ * Description: Prints all possible different combinations of three digits in ascending order.
+ *              Digits must be separated by ", " and must be unique.
+ *              Only uses the putchar function.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int first_digit, second_digit, third_digit;
