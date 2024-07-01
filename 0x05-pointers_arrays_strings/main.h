@@ -42,6 +42,10 @@ int _putchar(char c);
 * puts2 - Prints every other character of a string, starting with the first character.
 * @str: Pointer to the string to print
 */
+/**
+* puts_half - Prints the second half of a string
+* @str: Pointer to the string to print
+*/
 void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
