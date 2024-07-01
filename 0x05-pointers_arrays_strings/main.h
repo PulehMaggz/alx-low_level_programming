@@ -38,6 +38,10 @@ int _putchar(char c);
 * rev_string - Reverses a string.
 * @s: Pointer to the string to reverse
 */
+/**
+* puts2 - Prints every other character of a string, starting with the first character.
+* @str: Pointer to the string to print
+*/
 void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
