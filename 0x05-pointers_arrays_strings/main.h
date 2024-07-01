@@ -51,6 +51,13 @@ int _putchar(char c);
 * @a: Pointer to the array of integers
 * @n: Number of elements to print
 */
+/**
+* _strcpy - Copies the string pointed to by src to the buffer pointed to by dest
+* @dest: Pointer to the destination buffer
+* @src: Pointer to the source string
+*
+* Return: Pointer to dest
+*/
 void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
