@@ -46,6 +46,11 @@ int _putchar(char c);
 * puts_half - Prints the second half of a string
 * @str: Pointer to the string to print
 */
+/**
+* print_array - Prints n elements of an array of integers
+* @a: Pointer to the array of integers
+* @n: Number of elements to print
+*/
 void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
