@@ -34,6 +34,10 @@ int _putchar(char c);
 * print_rev - Prints a string in reverse followed by a new line.
 * @s: Pointer to the string to print in reverse
 */
+/**
+* rev_string - Reverses a string.
+* @s: Pointer to the string to reverse
+*/
 void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
