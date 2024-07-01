@@ -22,6 +22,12 @@ int _putchar(char c);
 * @s: Pointer to the string
 *
 * Return: The length of the string
+*
+*/
+
+/**
+* _puts - Prints a string followed by a new line to stdout.
+* @str: Pointer to the string to print
 */
 void swap_int(int *a, int *b);
 int _strlen(char *s);
@@ -33,4 +39,5 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
+int _putchar(char c);
 #endif /* MAIN_H */
