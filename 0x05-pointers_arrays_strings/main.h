@@ -17,6 +17,12 @@ int _putchar(char c);
  * On error, -1 is returned, and errno is set appropriately.
  */
 
+/**
+* _strlen - Returns the length of a string.
+* @s: Pointer to the string
+*
+* Return: The length of the string
+*/
 void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
