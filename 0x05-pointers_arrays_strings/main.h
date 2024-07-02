@@ -58,6 +58,20 @@ int _putchar(char c);
 *
 * Return: Pointer to dest
 */
+
+/**
+* _strcpy - Copies the string pointed to by src to the buffer pointed to by dest
+* @dest: Pointer to the destination buffer
+* @src: Pointer to the source string
+*
+* Return: Pointer to dest
+*/
+/**
+* _atoi - Convert a string to an integer
+* @s: The string to be converted
+*
+* Return: The integer value of the string
+*/
 void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
