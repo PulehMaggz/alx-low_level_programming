@@ -9,5 +9,12 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-return (0);
+char *ptr = dest;
+while (*ptr != '\0')
+ptr++;
+while (*src != '\0' && n--)
+*ptr++ = *src++;
+*ptr = '\0';
+return (dest);
 }
+
