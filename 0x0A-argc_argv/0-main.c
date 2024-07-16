@@ -10,8 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-/* Unused parameter */
-(void)argc;
+(void)argc; // Unused parameter
 printf("%s\n", argv[0]);
 return (0);
 }
