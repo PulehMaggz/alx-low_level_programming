@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _putchar(char c);
-
+/* Libraries */
+#include <stdio.h>
+/* Function prototypes */
+int main(int argc, char *argv[]);
 #endif /* MAIN_H */
